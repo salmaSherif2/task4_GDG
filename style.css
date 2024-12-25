@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img{
+    width: 100%;
+}
+.section
+{
+    height: 100vh;
+    background-image: url(imgs/pexels-gochrisgoxyz-1477166.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.imgeHeader{
+    width: 10%;
+}
+
+.flowerImage{
+    margin-inline: 8px;
+    width: 28%;
+    float: left;
+    padding-inline: 15px;
+
+}
+.prices
+{
+    padding-block: 15px 12px;
+    width: 60%;
+    margin: auto;
+}
+.content
+{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.clr
+{
+    clear: both;
+}
+span{
+    font-size: small;
+    font-weight: bold;
+}
+.newPrice{
+    float: left;
+    color: white;
+}
+.oldPrice{
+    float: right;
+    color: gray;
+}
+button{
+    font-size: small;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(90, 113, 152);
+    border: 0;
+    border-radius: 15px;
+}
+
+button:hover{
+background-color: rgb(58, 112, 58);
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.flower{
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+.overlay{
+    overflow: hidden;
+    transition: 1s ;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    margin: auto;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+}
+.overlay-content{
+    padding-top: 45px;
+}
+.overlay h4{
+    padding-bottom: 30px;
+    font-size: 30px;
+
+}
+.overlay p{
+    padding-top: 15px;
+}
+.flower:hover img{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.flower:hover .overlay{
+    top: 0%;
+}
